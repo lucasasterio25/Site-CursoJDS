@@ -1,0 +1,168 @@
+.centro{
+    text-align: center;
+    align-content: center;
+    align-content: center;
+}
+@media (min-width: 768px) {
+
+  .only-mobile{
+    display: none;
+  }
+  img#img-pag{
+    margin: 0 auto;
+  }
+  .sociais{
+  float: left;
+  position: absolute;
+  left: 64%;
+  top: 180px;
+  border: none;
+  }
+
+  div#mail{
+  float: left;
+  position: absolute;
+  margin: 50px 0 0 900px;
+  border: 2px solid white;
+  }
+
+  div#usuario p{
+    margin-top: 10px;
+  }
+
+
+.livro{
+  height: 400px;
+  width: 400px;
+}
+.mapa{
+  overflow:hidden;
+  height:650px;
+  width:600px;
+}
+div#nvagas{
+  border: 2px solid white;
+  margin-top: 170px;
+  margin-left: 180px;
+  float: left;
+  position: absolute;
+}
+img#entrevistas{
+  height: 300px;
+  width: 300px;
+}
+div#preco{
+  margin-top: 23px;
+}
+
+div#footer{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div#curriculo{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+}
+
+@media (max-width: 768px) {
+  .only-desktop{
+    display: none;
+  }
+  img#img-pag{
+    margin-left: 15%;
+    margin-top: 20px;
+  }
+  .link{
+  font-size: 10px;
+  }
+  .link1{
+  font-size: 7px;
+  }
+  .sociais1{
+  float: left;
+  position: absolute;
+  left: 64%;
+  top: 53px;
+  border: none;
+  }
+  img#img-social{
+    height: 15px;
+    width: 15px;
+  }
+
+  div#mail1{
+  margin: 0 0 0 0;
+  border: 1px solid white;
+  }
+
+  .mapa{
+  margin: 0 0 0 0;
+  overflow:hidden;
+  height: 250px;
+  width: 250px;
+}
+
+div#nvagas{
+  border: 2px solid white;
+  margin-top: 100px;
+  margin-left: 20px;
+  float: left;
+  position: absolute;
+}
+}
+
+
+.centro{
+  text-align: center;
+  vertical-align: center;
+  align-items: center;
+}
+
+.btn-pagto {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  height: 50%;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+}
+.btn-pagto:hover {
+  background-color: orange;
+  color: black;
+}
+
+.mail-text{
+  color: white;
+}
+
+.vagas-text{
+  color: white;
+}
+
+div#vagas{
+  background-image: url('../paper_img/fundo-vagas.jpg') ;
+}
+
+div#curriculo{
+  background-image: url('../paper_img/fundo-minicurriculo.jpg') ;
+}
+
+div#footer{
+  background-image: url('../paper_img/fundo-footer.jpg') ;
+  position: relative;
+}
+}
+
+.modulo1{
+  height: 10px;
+  width: 10px;
+}
+.navbar {
+  margin-top: 0;
+  padding-top: 0;
+}

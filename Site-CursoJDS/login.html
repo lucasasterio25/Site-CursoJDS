@@ -1,0 +1,160 @@
+<!doctype html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>JOVENS DE SUCESSO</title> 
+      <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />    
+      <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+<h1 ></h1>
+  <!-- Pagina da frente-->
+<div id="dialog" class="dialog dialog-effect-in">
+  <div class="dialog-front">
+    <div class="dialog-content">
+      <form id="login_form" class="dialog-form" action="index.html" method="POST">
+        <fieldset>
+          <legend><img src="assets/paper_img/Logo.png" class="img-responsive centro" id="logo"></legend>
+
+          <div class="form-group">
+            <label for="user_username" class="control-label">Email:</label>
+            <input type="email" id="user_username" class="form-control" name="user_username" autofocus/>
+          </div>
+
+          <div class="form-group">
+            <label for="user_password" class="control-label">Senha:</label>
+            <input type="password" id="user_password" class="form-control" name="user_password"/>
+          </div>
+
+          <div class="pad-top-20 pad-btm-20">
+            <input type="submit" class="btn btn-success btn-block btn-lg" value="Entrar">
+          </div>
+
+          <div class="text-center">
+            <p>Esqueceu sua<br> <a href="#" data-toggle="modal" data-target="#myModal1"><strong>senha</strong></a>?</p>
+            <hr>
+            <p>Criar<br> <a href="#" data-toggle="modal" data-target="#myModal"><strong>uma nova conta</strong></a>?</p>
+          </div>
+         
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"><strong>REENVIO DE SENHA</strong></h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+    <form action="#" method="POST">
+              <h3 class="text-center black">Será enviado um e-mail para você escolher uma senha nova</h3>
+              <label for="nome">Nome completo:</label>
+              <input type="text" class="form-control" id="nome">
+
+              <label for="cpf">CPF:</label>
+              <input type="text" class="form-control" id="cpf">
+
+              <label for="email">E-mail:</label>
+              <input type="email" class="form-control" id="email"><br>
+
+              <div class="centro">
+              <input type="submit" class="btn btn-pagto" value="Continue">
+              </div>
+    </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"><strong>CADASTRO</strong></h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+    <form action="#" method="POST">
+              <h3 class="text-center black">Digite os dados corretamente para finalizar seu cadastro</h3>
+              <label for="nome">Nome completo:</label>
+              <input type="text" class="form-control" id="nome">
+
+              <label for="cpf">CPF:</label>
+              <input type="text" class="form-control" id="cpf" placeholder="Sem pontos/traços">
+
+              <label for="date">Data de nascimento:</label>
+              <input type="date" class="form-control" id="date">
+
+              <label for="email">E-mail:</label>
+              <input type="email" class="form-control" id="email">
+
+              <label for="cep">CEP:</label>
+              <input type="text" class="form-control" id="cep">
+
+              <label for="endereco">Endereço:</label>
+              <input type="text" class="form-control" id="endereco" placeholder="Rua, nº">
+
+              <label for="Bairro">Bairro:</label>
+              <input type="text" class="form-control" id="Bairro">
+              
+              <label for="Cidade">Cidade:</label>
+              <input type="text" class="form-control" id="Cidade">
+
+              <label for="Estado">Estado:</label>
+              <input type="text" class="form-control" id="Estado">
+
+              <label for="Pais">País:</label>
+              <input type="text" class="form-control" id="Pais">
+              
+              <label for="Sexo">Sexo</label>
+                <select class="form-control" id="Sexo">
+                    <option></option>
+                    <option>Feminino</option>
+                    <option>Masculino</option>
+              </select>
+
+              <label for="Telefone">Telefone:</label>
+              <input type="text" class="form-control" id="Telefone">
+
+              <label for="Celular">Celular:</label>
+              <input type="text" class="form-control" id="Celular"><br>
+              <div class="centro">
+              <input type="submit" class="btn btn-pagto" value="Continue">
+              </div>
+    </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+    <!--  Plugins -->
+    <script src="assets/js/ct-paper-checkbox.js"></script>
+    <script src="assets/js/ct-paper-radio.js"></script>
+    <script src="assets/js/bootstrap-select.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/ct-paper.js"></script>  
+</html>
